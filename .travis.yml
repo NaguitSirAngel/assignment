@@ -8,7 +8,7 @@ node_js:
 cache: npm
 
 env:
-  - $NOW_TOKEN="BScmmAjruUDXGZZet472gKVQ"
+  - $NOW_TOKEN='BScmmAjruUDXGZZet472gKVQ'
 
 
 before_install:
