@@ -1,11 +1,15 @@
 # https://github.com/NaguitSirAngel
 
-language: node_js
 
+language: node_js
 node_js:
-  - "10.9.0"
+  - 10.9.0
 
 cache: npm
 
-before_install:
-  - ls -la
+install:
+  - npm install
+
+script:
+  - npm run build
+  - npm run test
